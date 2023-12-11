@@ -340,31 +340,367 @@ function load(){
 	setup();
 }
 
-// EN songs
+// RU songs
 
+const ru_2000_m_icon = [
+	'easy',
+	'medium'
+];
 
+const RU_2000_M_PACK_1 = 1;
+const RU_2000_M_PACK_2 = 2;	
+
+let ru_2000_m = [
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'Стас Пьеха',
+		song : "Одна звезда"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'Иракли',
+		song : "Лондон-Париж"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'Николай Расторгуев',
+		song : "Берёзы (ft Сергей Безруков)"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'Андрей Губин',
+		song : "Такие девушки как звезды"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'Андрей Губин',
+		song : "Танцы"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'Валерий Меладзе',
+		song : "Параллельные"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Дима Билан',
+		song : "Мулатка"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'Александр Маршал',
+		song : "Белый пепел"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'Игорь Корнелюк',
+		song : "Город, которого нет"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'Григорий Лепс',
+		song : "Рюмка водки"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'Данко',
+		song : "Малыш"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'Иракли',
+		song : "Капли абсента"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'Стас Пьеха',
+		song : "На ладони линия"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'Сергей Трофимов',
+		song : "Город в пробках"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'Денис Майданов',
+		song : "Вечная любовь"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'Владимир Кузьмин',
+		song : "Зачем уходишь ты?"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'Леонид Агутин',
+		song : "Граница (ft Отпетые мошенники)"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'Леонид Агутин',
+		song : "Аэропорты (ft Владимир Пресняков)"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Mr Credo',
+		song : "Чудная долина"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'Андрей Алексин',
+		song : "Страшная"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'Тимати',
+		song : "Не сходи с ума"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'DJ SMASH',
+		song : "Moscow Never Sleeps"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'DJ Дождик',
+		song : "Почему же"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Noise MC',
+		song : "За Закрытой Дверью"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Серёга',
+		song : "Возле дома твоего"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Серёга',
+		song : "Кружим по району"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Лигалайз',
+		song : "Джаная (ft Dato)"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Лигалайз',
+		song : "Я Хочу Быть С Тобой (ft Бархат)"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Лигалайз',
+		song : "Моя Москва"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Юрий Шатунов',
+		song : "Забудь"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Баста',
+		song : "Моя игра"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'Юрий Титов',
+		song : "Понарошку"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'Сергей Зверев',
+		song : "Алла"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'Джанго',
+		song : "Холодная весна"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'Айдамир Мугу',
+		song : "Чёрные Глаза"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'Паскаль',
+		song : "Шёлковое Сердце"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Дмитрий Колдун',
+		song : "Я для тебя"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Дмитрий Колдун',
+		song : "Звезда"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Дмитрий Колдун',
+		song : "Настройся на меня"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Никита',
+		song : "Слова Как Пули"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Никита',
+		song : "Не бойся и беги"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Никита',
+		song : "Я не люблю тебя (ft Анастасия Стоцкая)"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Mr Credo',
+		song : "Буду, думать"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Mr Credo',
+		song : "Автобан"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'Валерий Меладзе',
+		song : "Небеса"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'Валерий Меладзе',
+		song : "Иностранец"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Дима Билан',
+		song : "Changes"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Дима Билан',
+		song : "Я твой номер один"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Антон Зацепин',
+		song : "Ниже ростом только Губин"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Антон Зацепин',
+		song : "Книжки о любви"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Антон Зацепин',
+		song : "Улетаю"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'DJ SMASH',
+		song : "Волна (ft Fast Food, Люды Соколовой и Павла «Снежка» Воли)"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'DJ SMASH',
+		song : "Любовь побеждает время (ft Дмитрий Дибров)"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Юрий Шатунов',
+		song : "Не бойся"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Юрий Шатунов',
+		song : "Запиши мой голос на кассету"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Евгений Анегин',
+		song : "Луна"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Евгений Анегин',
+		song : "Песня О Любви"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Серёга',
+		song : "Мой бит"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'Никита Малинин',
+		song : "Вспышка в ночи"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Леонид Руденко',
+		song : "Everybody"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Михаил Гребенщиков',
+		song : "Танцы-Обниманцы"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Михаил Гребенщиков',
+		song : "Булки"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Сергей Лазарев',
+		song : "Найди меня",
+		year : 2009
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Сергей Лазарев',
+		song : "Lazerboy (ft Тимати)",
+		year : 2008
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Сергей Лазарев',
+		song : "Вспоминай",
+		year : 2006
+	}
+];
+
+let ru_2000_m_1 =	ru_2000_m.filter(item => item.pack == 1);
+let ru_2000_m_2 =	ru_2000_m.filter(item => item.pack == 2);
 
 let music = [
 	{
-		arr: en_2000_m,
-		lang: 'en',
+		arr: ru_2000_m,
+		lang: 'ru',
 		year: '2000',
 		type: 'm',
 		packs: [
 				{
-					arr: en_2000_m_1,
-					name: 'EN 2000s Male: Pop',
+					arr: ru_2000_m_1,
+					name: 'RU 2000s Male: Easy',
 				},
 				{
-					arr: en_2000_m_2,
-					name: 'EN 2000s Male: Dj',
-				},
-				{
-					arr: en_2000_m_3,
-					name: 'EN 2000s Male: Rap',
+					arr: ru_2000_m_2,
+					name: 'RU 2000s Male: Medium',
 				}
 			]
-	}
+	},
 ]
 
 let songs_to_map;
@@ -687,7 +1023,7 @@ let generateAudioPath;
 let generateImgPath;
 
 function setup(){
-	lang = 'en';
+	lang = 'ru';
 	year = '2000';
 	artist_type = 'm';
 	back = back_to_packages;
@@ -695,7 +1031,7 @@ function setup(){
 	setMedia = setAudio;
 	rightAnswer = rightAnswer_RU;
 	count_time();
-	package_names = en_2000_gr_icon;
+	package_names = ru_2000_m_icon;
 	show_packages(package_names.length);
 	document.body.scrollTop = document.documentElement.scrollTop = 0;
 }
