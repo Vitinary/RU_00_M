@@ -346,12 +346,14 @@ function load(){
 const ru_2000_m_icon = [
 	'easy',
 	'medium',
-	'fabrika'
+	'fabrika_m',
+	'fabrika_f'
 ];
 
 const RU_2000_M_PACK_1 = 1;
 const RU_2000_M_PACK_2 = 2;	
 const RU_2000_M_PACK_3 = 3;	
+const RU_2000_M_PACK_3 = 4;	
 
 let ru_2000_m = [
 	{
@@ -693,12 +695,12 @@ let ru_2000_m = [
 		song : "5000 тонн света (2002) Фабрика-1"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Фабрика',
 		song : "Про любовь (2002) Фабрика-1"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Фабрика',
 		song : "Ой, мама, я влюбилась (2002) Фабрика-1"
 	},
@@ -718,27 +720,27 @@ let ru_2000_m = [
 		song : "Уйдём вдвоём (2002) Фабрика-1"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Юлия Савичева',
 		song : "Высоко (2003) Фабрика-2"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Юлия Савичева',
 		song : "Прощай, моя любовь (2003) Фабрика-2"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Полина Гагарина',
 		song : "Где ты? (2003) Фабрика-2"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Мария Ржевская',
 		song : "Когда я стану кошкой (2003) Фабрика-2"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Мария Ржевская',
 		song : "Зачем я ждала тебя (2003) Фабрика-2"
 	},
@@ -763,17 +765,17 @@ let ru_2000_m = [
 		song : "Закрой глаза рукой (2003) Фабрика-2"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Елена Терлеева',
 		song : "Нам-Нам (2003) Фабрика-2"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Елена Темникова',
 		song : "Тайна (2003) Фабрика-2"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Елена Темникова',
 		song : "Дальше всех (2003) Фабрика-2"
 	},
@@ -788,32 +790,32 @@ let ru_2000_m = [
 		song : "Для неё (2003) Фабрика-3"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Юлия Михальчик',
 		song : "Питер (2003) Фабрика-3"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Юлия Михальчик',
 		song : "Птица (2003) Фабрика-3"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Юлия Михальчик',
 		song : "Письмо (2003) Фабрика-3"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Юлия Михальчик',
 		song : "Голоса (2003) Фабрика-3"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Светлана Светикова',
 		song : "Навсегда (2003) Фабрика-3"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Светлана Светикова',
 		song : "Вешняя (2003) Фабрика-3"
 	},
@@ -833,12 +835,12 @@ let ru_2000_m = [
 		song : "Маленький мальчик (2003) Фабрика-3"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Тутси',
 		song : "Самый-самый (2003) Фабрика-3"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Ирина Дубцова',
 		song : "О нём (2004) Фабрика-4"
 	},
@@ -858,12 +860,12 @@ let ru_2000_m = [
 		song : "Одна звезда (2004) Фабрика-4"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Алекса',
 		song : "Где же ты? (2004) Фабрика-4"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Алекса',
 		song : "Лунная тропа (2004) Фабрика-4"
 	},
@@ -873,12 +875,12 @@ let ru_2000_m = [
 		song : "Понарошку (2004) Фабрика-4"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Ангина',
 		song : "Кому какое дело (2004) Фабрика-4"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Ксения Ларина',
 		song : "Пузырьки лимонада (2004) Фабрика-4"
 	},
@@ -913,22 +915,22 @@ let ru_2000_m = [
 		song : "Новые люди (2004) Фабрика-4"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Анастасия Кочеткова',
 		song : "Мне нужен один ты (2004) Фабрика-4"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Анастасия Кочеткова',
 		song : "Мама, я люблю тебя (2004) Фабрика-4"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Виктория Дайнеко',
 		song : "Лейла (2004) Фабрика-5"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Виктория Дайнеко',
 		song : "Я буду лучше (2004) Фабрика-5"
 	},
@@ -943,12 +945,12 @@ let ru_2000_m = [
 		song : "Целься (2004) Фабрика-5"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Наталья Подольская',
 		song : "Поздно (2004) Фабрика-5"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Наталья Подольская',
 		song : "Everybody dance (2004) Фабрика-5"
 	},
@@ -963,22 +965,22 @@ let ru_2000_m = [
 		song : "Ты скажи (2004) Фабрика-5"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Елена Кукарская',
 		song : "По маленькой (2004) Фабрика-5"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Елена Кукарская',
 		song : "Жу-жу (2004) Фабрика-5"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Дарья Клюшникова',
 		song : "Сердце не тронешь (2004) Фабрика-5"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Юлианна Караулова',
 		song : "Я попала в сети (2004) Фабрика-5"
 	},
@@ -1008,12 +1010,12 @@ let ru_2000_m = [
 		song : "Чужая невеста (2006) Фабрика-6"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Согдиана',
 		song : "Сердце-магнит (2006) Фабрика-6"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Согдиана',
 		song : "Подожди (2006) Фабрика-6"
 	},
@@ -1028,22 +1030,22 @@ let ru_2000_m = [
 		song : "Проказница (2006) Фабрика-6"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Зара',
 		song : "Любовь-красавица (2006) Фабрика-6"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Анастасия Приходько',
 		song : "Вера (2007) Фабрика-7"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Анастасия Приходько',
 		song : "Группа крови (2007) Фабрика-7"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Анастасия Приходько',
 		song : "Три зимы (2007) Фабрика-7"
 	},
@@ -1058,22 +1060,22 @@ let ru_2000_m = [
 		song : "Нет, нет, нет (2007) Фабрика-7"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Дакота',
 		song : "Я всё знала (2007) Фабрика-7"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Дакота',
 		song : "Спички (2007) Фабрика-7"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Дакота',
 		song : "Одна (2007) Фабрика-7"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Дакота',
 		song : "Лучшему другу (2007) Фабрика-7"
 	},
@@ -1103,12 +1105,12 @@ let ru_2000_m = [
 		song : "Ярким пламенем (2007) Фабрика-7"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Юлианна Караулова',
 		song : "Дождь (2004) Фабрика-5"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_4,
 		group : 'Юлия Савичева',
 		song : "Корабли (2003) Фабрика-2"
 	}
@@ -1117,6 +1119,7 @@ let ru_2000_m = [
 let ru_2000_m_1 =	ru_2000_m.filter(item => item.pack == 1);
 let ru_2000_m_2 =	ru_2000_m.filter(item => item.pack == 2);
 let ru_2000_m_3 =	ru_2000_m.filter(item => item.pack == 3);
+let ru_2000_m_4 =	ru_2000_m.filter(item => item.pack == 4);
 
 let music = [
 	{
@@ -1135,7 +1138,11 @@ let music = [
 				},
 				{
 					arr: ru_2000_m_3,
-					name: 'RU 2000s Star Fabrics',
+					name: 'RU 2000s Star Fabrics Male',
+				},
+				{
+					arr: ru_2000_m_3,
+					name: 'RU 2000s Star Fabrics Female',
 				}
 			]
 	},
