@@ -353,7 +353,7 @@ const ru_2000_m_icon = [
 const RU_2000_M_PACK_1 = 1;
 const RU_2000_M_PACK_2 = 2;	
 const RU_2000_M_PACK_3 = 3;	
-const RU_2000_M_PACK_3 = 4;	
+const RU_2000_M_PACK_4 = 4;	
 
 let ru_2000_m = [
 	{
