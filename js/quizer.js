@@ -506,185 +506,187 @@ let ru_2000_m = [
 	{
 		pack : RU_2000_M_PACK_2,
 		group : 'Юрий Шатунов',
-		song : "Забудь"
+		song : "Забудь (2001)"
 	},
 	{
 		pack : RU_2000_M_PACK_2,
 		group : 'Баста',
-		song : "Моя игра"
+		song : "Моя игра (2006)"
 	},
 	{
 		pack : RU_2000_M_PACK_1,
 		group : 'Юрий Титов',
-		song : "Понарошку"
+		song : "Понарошку (2004)"
 	},
 	{
 		pack : RU_2000_M_PACK_1,
 		group : 'Сергей Зверев',
-		song : "Алла"
+		song : "Алла (2005)"
 	},
 	{
 		pack : RU_2000_M_PACK_1,
 		group : 'Джанго',
-		song : "Холодная весна"
+		song : "Холодная весна (2005)"
 	},
 	{
 		pack : RU_2000_M_PACK_1,
 		group : 'Айдамир Мугу',
-		song : "Чёрные Глаза"
+		song : "Чёрные Глаза (2004)"
 	},
 	{
 		pack : RU_2000_M_PACK_1,
 		group : 'Паскаль',
-		song : "Шёлковое Сердце"
+		song : "Шёлковое Сердце (2000)"
 	},
 	{
 		pack : RU_2000_M_PACK_2,
 		group : 'Дмитрий Колдун',
-		song : "Я для тебя"
+		song : "Я для тебя (2007)"
 	},
 	{
 		pack : RU_2000_M_PACK_2,
 		group : 'Дмитрий Колдун',
-		song : "Звезда"
+		song : "Звезда (2009)"
 	},
 	{
 		pack : RU_2000_M_PACK_2,
 		group : 'Дмитрий Колдун',
-		song : "Настройся на меня"
+		song : "Настройся на меня (2009)"
 	},
 	{
 		pack : RU_2000_M_PACK_2,
 		group : 'Никита',
-		song : "Слова Как Пули"
+		song : "Слова Как Пули (2012)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_2,
 		group : 'Никита',
-		song : "Не бойся и беги"
+		song : "Не бойся и беги (2010)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_2,
 		group : 'Никита',
-		song : "Я не люблю тебя (ft Анастасия Стоцкая)"
+		song : "Я не люблю тебя (ft Анастасия Стоцкая) (2006)"
 	},
 	{
 		pack : RU_2000_M_PACK_2,
 		group : 'Mr Credo',
-		song : "Буду, думать"
+		song : "Буду думать (1998)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_2,
 		group : 'Mr Credo',
-		song : "Автобан"
+		song : "Автобан (2002)"
 	},
 	{
 		pack : RU_2000_M_PACK_1,
 		group : 'Валерий Меладзе',
-		song : "Небеса"
+		song : "Небеса (2010)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_1,
 		group : 'Валерий Меладзе',
-		song : "Иностранец"
+		song : "Иностранец (2005)"
 	},
 	{
 		pack : RU_2000_M_PACK_2,
 		group : 'Дима Билан',
-		song : "Changes"
+		song : "Changes (2009)"
 	},
 	{
 		pack : RU_2000_M_PACK_2,
 		group : 'Дима Билан',
-		song : "Я твой номер один"
+		song : "Я твой номер один (2008)"
 	},
 	{
 		pack : RU_2000_M_PACK_2,
 		group : 'Антон Зацепин',
-		song : "Ниже ростом только Губин"
+		song : "Ниже ростом только Губин (2008)"
 	},
 	{
 		pack : RU_2000_M_PACK_2,
 		group : 'Антон Зацепин',
-		song : "Книжки о любви"
+		song : "Книжки о любви (2004)"
 	},
 	{
 		pack : RU_2000_M_PACK_2,
 		group : 'Антон Зацепин',
-		song : "Улетаю"
+		song : "Улетаю (2008)"
 	},
 	{
 		pack : RU_2000_M_PACK_1,
 		group : 'DJ SMASH',
-		song : "Волна (ft Fast Food, Люды Соколовой и Павла «Снежка» Воли)"
+		song : "Волна (ft Fast Food, Люды Соколовой и Павла «Снежка» Воли) (2008)"
 	},
 	{
 		pack : RU_2000_M_PACK_1,
 		group : 'DJ SMASH',
-		song : "Любовь побеждает время (ft Дмитрий Дибров)"
+		song : "Любовь побеждает время (ft Дмитрий Дибров) (2008)"
 	},
 	{
 		pack : RU_2000_M_PACK_2,
 		group : 'Юрий Шатунов',
-		song : "Не бойся"
+		song : "Не бойся (2004)"
 	},
 	{
 		pack : RU_2000_M_PACK_2,
 		group : 'Юрий Шатунов',
-		song : "Запиши мой голос на кассету"
+		song : "Запиши мой голос на кассету (2006)"
 	},
 	{
 		pack : RU_2000_M_PACK_2,
 		group : 'Евгений Анегин',
-		song : "Луна"
+		song : "Луна (2008)"
 	},
 	{
 		pack : RU_2000_M_PACK_2,
 		group : 'Евгений Анегин',
-		song : "Песня О Любви"
+		song : "Песня О Любви",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_2,
 		group : 'Серёга',
-		song : "Мой бит"
+		song : "Мой бит (2005)"
 	},
 	{
 		pack : RU_2000_M_PACK_1,
 		group : 'Никита Малинин',
-		song : "Вспышка в ночи"
+		song : "Вспышка в ночи (2004)"
 	},
 	{
 		pack : RU_2000_M_PACK_2,
 		group : 'Леонид Руденко',
-		song : "Everybody"
+		song : "Everybody (2009)"
 	},
 	{
 		pack : RU_2000_M_PACK_2,
 		group : 'Михаил Гребенщиков',
-		song : "Танцы-Обниманцы"
+		song : "Танцы-Обниманцы (2003)"
 	},
 	{
 		pack : RU_2000_M_PACK_2,
 		group : 'Михаил Гребенщиков',
-		song : "Булки"
+		song : "Булки (2003)"
 	},
 	{
 		pack : RU_2000_M_PACK_2,
 		group : 'Сергей Лазарев',
-		song : "Найди меня",
-		year : 2009
+		song : "Найди меня (2009)"
 	},
 	{
 		pack : RU_2000_M_PACK_2,
 		group : 'Сергей Лазарев',
-		song : "Lazerboy (ft Тимати)",
-		year : 2008
+		song : "Lazerboy (ft Тимати) (2008)"
 	},
 	{
 		pack : RU_2000_M_PACK_2,
 		group : 'Сергей Лазарев',
-		song : "Вспоминай",
-		year : 2006
+		song : "Вспоминай (2006)"
 	},
 	{
 		pack : RU_2000_M_PACK_3,
