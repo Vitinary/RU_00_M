@@ -476,7 +476,8 @@ let ru_2000_m = [
 	{
 		pack : RU_2000_M_PACK_2,
 		group : 'Noize MC',
-		song : "За закрытой дверью (2007)"
+		song : "За закрытой дверью (2007)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_2,
@@ -491,12 +492,14 @@ let ru_2000_m = [
 	{
 		pack : RU_2000_M_PACK_2,
 		group : 'Лигалайз',
-		song : "Джаная (ft Dato) (2006)"
+		song : "Джаная (ft Dato) (2006)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_2,
 		group : 'Лигалайз',
-		song : "Я хочу быть с тобой (ft Бархат) (2007)"
+		song : "Я хочу быть с тобой (ft Бархат) (2007)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_2,
@@ -1172,6 +1175,41 @@ let ru_2000_m = [
 		pack : RU_2000_M_PACK_2,
 		group : 'Александр Малинин',
 		song : "Дай Бог (2007)"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Лигалайз',
+		song : "Будущие мамы (2006)"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Лигалайз',
+		song : "Сволочи (2007)"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Noize MC',
+		song : "Из окна (2008)"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Влад Топалов',
+		song : "За любовь (2006)"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Влад Топалов',
+		song : "Три желания (2006)"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Леонид Руденко',
+		song : "Destination (ft Nicco) (2008)"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'Сергей Зверев',
+		song : "Ради тебя (2006)"
 	}
 ];
 
