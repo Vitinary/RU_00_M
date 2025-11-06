@@ -359,7 +359,8 @@ let ru_2000_m = [
 	{
 		pack : RU_2000_M_PACK_1,
 		group : 'Стас Пьеха',
-		song : "Одна звезда (2005)"
+		song : "Одна звезда (2005)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_1,
@@ -367,7 +368,7 @@ let ru_2000_m = [
 		song : "Лондон-Париж (2004)"
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Николай Расторгуев',
 		song : "Берёзы (ft Сергей Безруков) (2002)"
 	},
@@ -387,7 +388,7 @@ let ru_2000_m = [
 		song : "Параллельные (2007)"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_1,
 		group : 'Дима Билан',
 		song : "Мулатка (2004)"
 	},
@@ -399,12 +400,13 @@ let ru_2000_m = [
 	{
 		pack : RU_2000_M_PACK_1,
 		group : 'Игорь Корнелюк',
-		song : "Город, которого нет (2000)"
+		song : "Город, которого нет (2000)",
+		ignore : true
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Григорий Лепс',
-		song : "Рюмка водки (2002)"
+		song : "Рюмка водки на столе (2002)"
 	},
 	{
 		pack : RU_2000_M_PACK_1,
@@ -423,12 +425,12 @@ let ru_2000_m = [
 		song : "На ладони линия (2008)"
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Сергей Трофимов',
 		song : "Город в пробках (2009)"
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Денис Майданов',
 		song : "Вечная любовь (2009)"
 	},
@@ -454,12 +456,12 @@ let ru_2000_m = [
 		song : "Чудная долина (2002)"
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Андрей Алексин',
 		song : "Страшная (2001)"
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Тимати',
 		song : "Не сходи с ума (2006)"
 	},
@@ -469,7 +471,7 @@ let ru_2000_m = [
 		song : "Moscow Never Sleeps (2007)"
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'DJ Дождик',
 		song : "Почему же (2006)"
 	},
@@ -517,42 +519,43 @@ let ru_2000_m = [
 		song : "Моя игра (2006)"
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Юрий Титов',
-		song : "Понарошку (2004)"
+		song : "Понарошку (2004)",
+		ignore : true
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Сергей Зверев',
 		song : "Алла (2005)"
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Джанго',
 		song : "Холодная весна (2005)"
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Айдамир Мугу',
 		song : "Чёрные Глаза (2004)"
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Паскаль',
 		song : "Шёлковое Сердце (2000)"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_1,
 		group : 'Дмитрий Колдун',
 		song : "Я для тебя (2007)"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_1,
 		group : 'Дмитрий Колдун',
 		song : "Звезда (2009)"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_1,
 		group : 'Дмитрий Колдун',
 		song : "Настройся на меня (2009)"
 	},
@@ -596,12 +599,13 @@ let ru_2000_m = [
 		song : "Иностранец (2005)"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_1,
 		group : 'Дима Билан',
-		song : "Changes (2009)"
+		song : "Changes (2009)",
+		ignore : true
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_1,
 		group : 'Дима Билан',
 		song : "Я твой номер один (2008)"
 	},
@@ -623,12 +627,13 @@ let ru_2000_m = [
 	{
 		pack : RU_2000_M_PACK_1,
 		group : 'DJ SMASH',
-		song : "Волна (ft Fast Food, Люды Соколовой и Павла «Снежка» Воли) (2008)"
+		song : "Волна (ft Fast Food, Люда Соколова и Павел «Снежок» Воля) (2008)"
 	},
 	{
 		pack : RU_2000_M_PACK_1,
 		group : 'DJ SMASH',
-		song : "Любовь побеждает время (ft Дмитрий Дибров) (2008)"
+		song : "Любовь побеждает время (ft Дмитрий Дибров) (2008)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_2,
@@ -657,7 +662,7 @@ let ru_2000_m = [
 		song : "Мой бит (2005)"
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Никита Малинин',
 		song : "Вспышка в ночи (2004)"
 	},
@@ -677,17 +682,17 @@ let ru_2000_m = [
 		song : "Булки (2003)"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_1,
 		group : 'Сергей Лазарев',
 		song : "Найди меня (2009)"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_1,
 		group : 'Сергей Лазарев',
 		song : "Lazerboy (ft Тимати) (2008)"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_1,
 		group : 'Сергей Лазарев',
 		song : "Вспоминай (2006)"
 	},
@@ -1192,12 +1197,12 @@ let ru_2000_m = [
 		song : "Из окна (2008)"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_1,
 		group : 'Влад Топалов',
 		song : "За любовь (2006)"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_1,
 		group : 'Влад Топалов',
 		song : "Три желания (2006)"
 	},
@@ -1207,9 +1212,99 @@ let ru_2000_m = [
 		song : "Destination (ft Nicco) (2008)"
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Сергей Зверев',
 		song : "Ради тебя (2006)"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'Дима Билан',
+		song : "Number One Fan (2007)"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Баста',
+		song : "Так плачет весна (2006)"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Баста',
+		song : "Чувства (2007)"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'DJ SMASH',
+		song : "Moscow Never Sleeps (2007)"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Тимати',
+		song : "Groove On (ft Snoop Dogg) (2009)"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Тимати',
+		song : "Потанцуй (ft Ксения Собчак) (2006)"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'Данко',
+		song : "Она (2004)"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'Данко',
+		song : "Последний раз (2002)"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'Данко',
+		song : "Пусть (2003)"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Стас Михайлов',
+		song : "Всё для тебя (2006)"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'Иракли',
+		song : "Я с тобой (2009)"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'Стас Пьеха',
+		song : "Она не твоя (ft Григорий Лепс) (2008)"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'Стас Пьеха',
+		song : "Город детства (ft Эдита Пьеха) (2005)"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Григорий Лепс',
+		song : "Я тебя не люблю (2009)"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Николай Басков',
+		song : "Снегом белым (ft Таисия Повалий) (2007)"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Николай Басков',
+		song : "Шарманка (2001)"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Паскаль',
+		song : "Сто процентов любви (2003)"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'Валерий Меладзе',
+		song : "Сахара не надо (2008)"
 	}
 ];
 
