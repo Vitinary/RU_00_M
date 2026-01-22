@@ -347,13 +347,15 @@ const ru_2000_m_icon = [
 	'easy',
 	'medium',
 	'fabrika_m',
-	'fabrika_f'
+	'fabrika_f',
+	'pop'
 ];
 
 const RU_2000_M_PACK_1 = 1;
 const RU_2000_M_PACK_2 = 2;	
 const RU_2000_M_PACK_3 = 3;	
-const RU_2000_M_PACK_4 = 4;	
+const RU_2000_M_PACK_4 = 4;
+const RU_2000_M_PACK_5 = 5;
 
 let ru_2000_m = [
 	{
@@ -430,7 +432,7 @@ let ru_2000_m = [
 		song : "Город в пробках (2009)"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_5,
 		group : 'Денис Майданов',
 		song : "Вечная любовь (2009)"
 	},
@@ -456,7 +458,7 @@ let ru_2000_m = [
 		song : "Чудная долина (2002)"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_5,
 		group : 'Андрей Алексин',
 		song : "Страшная (2001)"
 	},
@@ -471,7 +473,7 @@ let ru_2000_m = [
 		song : "Moscow Never Sleeps (2007)"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_5,
 		group : 'DJ Дождик',
 		song : "Почему же (2006)"
 	},
@@ -530,12 +532,12 @@ let ru_2000_m = [
 		song : "Алла (2005)"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_5,
 		group : 'Джанго',
 		song : "Холодная весна (2005)"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_5,
 		group : 'Айдамир Мугу',
 		song : "Чёрные Глаза (2004)"
 	},
@@ -646,7 +648,7 @@ let ru_2000_m = [
 		song : "Запиши мой голос на кассету (2006)"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_5,
 		group : 'Евгений Анегин',
 		song : "Луна (2008)"
 	},
@@ -1127,7 +1129,7 @@ let ru_2000_m = [
 		song : "Корабли (2003) Фабрика-2"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_5,
 		group : 'Ахра',
 		song : "Карие глаза (2005)"
 	},
@@ -1305,6 +1307,51 @@ let ru_2000_m = [
 		pack : RU_2000_M_PACK_1,
 		group : 'Валерий Меладзе',
 		song : "Сахара не надо (2008)"
+	},
+	{
+		pack : RU_2000_M_PACK_5,
+		group : 'DJ Piligrim',
+		song : "Ты Меня Забудь (2009)"
+	},
+	{
+		pack : RU_2000_M_PACK_5,
+		group : 'Mc Zhan & DJ Riga',
+		song : "Ночная леди (2007)"
+	},
+	{
+		pack : RU_2000_M_PACK_5,
+		group : 'White Hot Ice',
+		song : "Растаман (2007)"
+	},
+	{
+		pack : RU_2000_M_PACK_5,
+		group : 'Аслан & Марина',
+		song : "Где ты? (2009)"
+	},
+	{
+		pack : RU_2000_M_PACK_5,
+		group : 'Константин Легостаев',
+		song : "Под одним одеялом (2004)"
+	},
+	{
+		pack : RU_2000_M_PACK_5,
+		group : 'Кристиан Лейних',
+		song : "Зажигай солнце (2003)"
+	},
+	{
+		pack : RU_2000_M_PACK_5,
+		group : 'ШЕFF',
+		song : "Имя-Шeff (2000)"
+	},
+	{
+		pack : RU_2000_M_PACK_5,
+		group : 'Смоки Мо',
+		song : "Кара-Тэ (feat. Шаали Секира) (2004)"
+	},
+	{
+		pack : RU_2000_M_PACK_5,
+		group : 'Жин-Жин',
+		song : "Снегом стать (2001)"
 	}
 ];
 
@@ -1312,6 +1359,7 @@ let ru_2000_m_1 =	ru_2000_m.filter(item => item.pack == 1);
 let ru_2000_m_2 =	ru_2000_m.filter(item => item.pack == 2);
 let ru_2000_m_3 =	ru_2000_m.filter(item => item.pack == 3);
 let ru_2000_m_4 =	ru_2000_m.filter(item => item.pack == 4);
+let ru_2000_m_5 =	ru_2000_m.filter(item => item.pack == 5);
 
 let music = [
 	{
@@ -1333,8 +1381,12 @@ let music = [
 					name: 'RU 2000s Star Fabrics Male',
 				},
 				{
-					arr: ru_2000_m_3,
+					arr: ru_2000_m_4,
 					name: 'RU 2000s Star Fabrics Female',
+				},
+				{
+					arr: ru_2000_m_5,
+					name: 'RU 2000s One Hit Wonders',
 				}
 			]
 	},
