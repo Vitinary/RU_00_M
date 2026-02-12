@@ -348,7 +348,8 @@ const ru_2000_m_icon = [
 	'medium',
 	'fabrika_m',
 	'fabrika_f',
-	'pop'
+	'pop',
+	'rap'
 ];
 
 const RU_2000_M_PACK_1 = 1;
@@ -356,6 +357,7 @@ const RU_2000_M_PACK_2 = 2;
 const RU_2000_M_PACK_3 = 3;	
 const RU_2000_M_PACK_4 = 4;
 const RU_2000_M_PACK_5 = 5;
+const RU_2000_M_PACK_6 = 6;
 
 let ru_2000_m = [
 	{
@@ -463,7 +465,7 @@ let ru_2000_m = [
 		song : "Страшная (2001)"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_6,
 		group : 'Тимати',
 		song : "Не сходи с ума (2006)"
 	},
@@ -484,14 +486,16 @@ let ru_2000_m = [
 		ignore : true
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_6,
 		group : 'Серёга',
-		song : "Возле дома твоего (2005)"
+		song : "Возле дома твоего (2005)",
+		ignore : true
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_6,
 		group : 'Серёга',
-		song : "Кружим по району (2009)"
+		song : "Кружим по району (2009)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_2,
@@ -506,9 +510,10 @@ let ru_2000_m = [
 		ignore : true
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_6,
 		group : 'Лигалайз',
-		song : "Моя Москва (2008)"
+		song : "Моя Москва (2008)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_1,
@@ -516,7 +521,7 @@ let ru_2000_m = [
 		song : "Забудь (2001)"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_6,
 		group : 'Баста',
 		song : "Моя игра (2006)"
 	},
@@ -659,7 +664,7 @@ let ru_2000_m = [
 		ignore : true
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_6,
 		group : 'Серёга',
 		song : "Мой бит (2005)"
 	},
@@ -1184,17 +1189,17 @@ let ru_2000_m = [
 		song : "Дай Бог (2007)"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_6,
 		group : 'Лигалайз',
 		song : "Будущие мамы (2006)"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_6,
 		group : 'Лигалайз',
 		song : "Сволочи (2007)"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_6,
 		group : 'Noize MC',
 		song : "Из окна (2008)"
 	},
@@ -1224,12 +1229,12 @@ let ru_2000_m = [
 		song : "Number One Fan (2007)"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_6,
 		group : 'Баста',
 		song : "Так плачет весна (2006)"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_6,
 		group : 'Баста',
 		song : "Чувства (2007)"
 	},
@@ -1239,12 +1244,12 @@ let ru_2000_m = [
 		song : "Moscow Never Sleeps (2007)"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_6,
 		group : 'Тимати',
 		song : "Groove On (ft Snoop Dogg) (2009)"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_6,
 		group : 'Тимати',
 		song : "Потанцуй (ft Ксения Собчак) (2006)"
 	},
@@ -1319,7 +1324,7 @@ let ru_2000_m = [
 		song : "Ночная леди (2007)"
 	},
 	{
-		pack : RU_2000_M_PACK_5,
+		pack : RU_2000_M_PACK_6,
 		group : 'White Hot Ice',
 		song : "Растаман (2007)"
 	},
@@ -1339,12 +1344,12 @@ let ru_2000_m = [
 		song : "Зажигай солнце (2003)"
 	},
 	{
-		pack : RU_2000_M_PACK_5,
+		pack : RU_2000_M_PACK_6,
 		group : 'ШЕFF',
 		song : "Имя-Шeff (2000)"
 	},
 	{
-		pack : RU_2000_M_PACK_5,
+		pack : RU_2000_M_PACK_6,
 		group : 'Смоки Мо',
 		song : "Кара-Тэ (feat. Шаали Секира) (2004)"
 	},
@@ -1357,6 +1362,76 @@ let ru_2000_m = [
 		pack : RU_2000_M_PACK_5,
 		group : 'Руслан Набиев',
 		song : "По ресторанам (2007)"
+	},
+	{
+		pack : RU_2000_M_PACK_6,
+		group : 'Серёга',
+		song : "Sonya Erixxxon (2006)"
+	},
+	{
+		pack : RU_2000_M_PACK_6,
+		group : 'Серёга',
+		song : "Песенка про то, как на танцполе авария случилася (2004)"
+	},
+	{
+		pack : RU_2000_M_PACK_6,
+		group : 'ST1M',
+		song : "Достучаться до небес (2008)"
+	},
+	{
+		pack : RU_2000_M_PACK_6,
+		group : 'ST1M',
+		song : "Изо всей силы (2007)"
+	},
+	{
+		pack : RU_2000_M_PACK_6,
+		group : 'Guf',
+		song : "Ice Baby (2009)"
+	},
+	{
+		pack : RU_2000_M_PACK_6,
+		group : 'Guf',
+		song : "Сплетни (2007)"
+	},
+	{
+		pack : RU_2000_M_PACK_6,
+		group : 'Ассаи',
+		song : "В точку (2008)"
+	},
+	{
+		pack : RU_2000_M_PACK_6,
+		group : 'Дельфин',
+		song : "Весна (2004)"
+	},
+	{
+		pack : RU_2000_M_PACK_6,
+		group : 'Дельфин',
+		song : "Глаза (ft Stella) (2003)"
+	},
+	{
+		pack : RU_2000_M_PACK_6,
+		group : 'Дельфин',
+		song : "Серебро (2004)"
+	},
+	{
+		pack : RU_2000_M_PACK_6,
+		group : 'Децл',
+		song : "Письмо (ft Маруся) (2001)"
+	},
+	{
+		pack : RU_2000_M_PACK_6,
+		group : 'Карандаш',
+		song : "Американщина (2006)"
+	},
+	{
+		pack : RU_2000_M_PACK_6,
+		group : 'Карандаш',
+		song : "Переходы (2006)"
+	},
+	{
+		pack : RU_2000_M_PACK_6,
+		group : 'Лигалайз',
+		song : "Жизнь (2006)"
 	}
 ];
 
@@ -1365,6 +1440,7 @@ let ru_2000_m_2 =	ru_2000_m.filter(item => item.pack == 2);
 let ru_2000_m_3 =	ru_2000_m.filter(item => item.pack == 3);
 let ru_2000_m_4 =	ru_2000_m.filter(item => item.pack == 4);
 let ru_2000_m_5 =	ru_2000_m.filter(item => item.pack == 5);
+let ru_2000_m_6 =	ru_2000_m.filter(item => item.pack == 6);
 
 let music = [
 	{
@@ -1390,6 +1466,10 @@ let music = [
 					name: 'RU 2000s Star Fabrics Female',
 				},
 				{
+					arr: ru_2000_m_6,
+					name: 'RU 2000s Rap',
+				},
+				{
 					arr: ru_2000_m_5,
 					name: 'RU 2000s One Hit Wonders',
 				}
@@ -1405,6 +1485,7 @@ function map_songs(){
 	$('#mirror').hide();
 	$('#map').hide();
 	$('#package_content').hide();
+	$('#sec_15_hist').show();
 	$('#mapping_content').show();
 	toggleLearn();
 	for(var j=0; j < music.length; j++){
@@ -1743,6 +1824,15 @@ function back_to_browser(){
 function back_to_current_pack(){
 	back = back_to_browser;
 	$('#mapping_content').hide();
+	$('#sec_15_hist').hide();
+	song_stop();
 	$('#map').show();
 	package_num(pack_num);
+}
+
+function song_stop() {
+	if(audio){
+		audio.pause();
+		audio = null;
+	}
 }
