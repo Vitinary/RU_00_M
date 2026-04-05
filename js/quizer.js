@@ -472,7 +472,8 @@ let ru_2000_m = [
 	{
 		pack : RU_2000_M_PACK_1,
 		group : 'DJ SMASH',
-		song : "Moscow Never Sleeps (2007)"
+		song : "Moscow Never Sleeps (2007)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_5,
@@ -634,7 +635,8 @@ let ru_2000_m = [
 	{
 		pack : RU_2000_M_PACK_1,
 		group : 'DJ SMASH',
-		song : "Волна (ft Fast Food, Люда Соколова и Павел «Снежок» Воля) (2008)"
+		song : "Волна (ft Fast Food, Люда Соколова и Павел «Снежок» Воля) (2008)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_1,
