@@ -374,7 +374,8 @@ let ru_2000_m = [
 	{
 		pack : RU_2000_M_PACK_2,
 		group : 'Николай Расторгуев',
-		song : "Берёзы (ft Сергей Безруков) (2002)"
+		song : "Берёзы (ft Сергей Безруков) (2002)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_1,
@@ -587,7 +588,8 @@ let ru_2000_m = [
 	{
 		pack : RU_2000_M_PACK_2,
 		group : 'Никита',
-		song : "Я не люблю тебя (ft Анастасия Стоцкая) (2006)"
+		song : "Я не люблю тебя (ft Анастасия Стоцкая) (2006)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_2,
@@ -703,7 +705,8 @@ let ru_2000_m = [
 	{
 		pack : RU_2000_M_PACK_1,
 		group : 'Сергей Лазарев',
-		song : "Lazerboy (ft Тимати) (2008)"
+		song : "Lazerboy (ft Тимати) (2008)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_1,
@@ -1256,12 +1259,14 @@ let ru_2000_m = [
 	{
 		pack : RU_2000_M_PACK_6,
 		group : 'Тимати',
-		song : "Groove On (ft Snoop Dogg) (2009)"
+		song : "Groove On (ft Snoop Dogg) (2009)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_6,
 		group : 'Тимати',
-		song : "Потанцуй (ft Ксения Собчак) (2006)"
+		song : "Потанцуй (ft Ксения Собчак) (2006)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_1,
@@ -1291,12 +1296,14 @@ let ru_2000_m = [
 	{
 		pack : RU_2000_M_PACK_1,
 		group : 'Стас Пьеха',
-		song : "Она не твоя (ft Григорий Лепс) (2008)"
+		song : "Она не твоя (ft Григорий Лепс) (2008)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_1,
 		group : 'Стас Пьеха',
-		song : "Город детства (ft Эдита Пьеха) (2005)"
+		song : "Город детства (ft Эдита Пьеха) (2005)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_2,
@@ -1449,6 +1456,16 @@ let ru_2000_m = [
 		pack : RU_2000_M_PACK_2,
 		group : 'Александр Дюмин',
 		song : "Шпана (2003)"
+	},
+	{
+		pack : RU_2000_M_PACK_1,
+		group : 'Сергей Лазарев',
+		song : "Даже если ты уйдешь (2006)"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Стас Михайлов',
+		song : "Без тебя (2004)"
 	}
 ];
 
