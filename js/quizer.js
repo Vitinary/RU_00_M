@@ -1492,20 +1492,20 @@ let music = [
 					name: 'RU 2000s Male: Medium',
 				},
 				{
-					arr: ru_2000_m_3,
-					name: 'RU 2000s Star Fabrics Male',
-				},
-				{
-					arr: ru_2000_m_4,
-					name: 'RU 2000s Star Fabrics Female',
-				},
-				{
 					arr: ru_2000_m_6,
 					name: 'RU 2000s Rap',
 				},
 				{
 					arr: ru_2000_m_5,
 					name: 'RU 2000s One Hit Wonders',
+				},
+				{
+					arr: ru_2000_m_3,
+					name: 'RU 2000s Star Fabrics Male',
+				},
+				{
+					arr: ru_2000_m_4,
+					name: 'RU 2000s Star Fabrics Female',
 				}
 			]
 	},
