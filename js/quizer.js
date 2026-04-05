@@ -1241,7 +1241,8 @@ let ru_2000_m = [
 	{
 		pack : RU_2000_M_PACK_1,
 		group : 'DJ SMASH',
-		song : "Moscow Never Sleeps (2007)"
+		song : "Moscow Never Sleeps (2007)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_6,
