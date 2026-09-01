@@ -361,13 +361,12 @@ const RU_2000_M_PACK_6 = 6;
 
 let ru_2000_m = [
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Стас Пьеха',
-		song : "Одна звезда (2005)",
-		ignore : true
+		song : "Одна звезда (2005)"
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Иракли',
 		song : "Лондон-Париж (2004)"
 	},
@@ -392,12 +391,14 @@ let ru_2000_m = [
 	{
 		pack : RU_2000_M_PACK_1,
 		group : 'Валерий Меладзе',
-		song : "Параллельные (2007)"
+		song : "Параллельные (2007)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_1,
 		group : 'Дима Билан',
-		song : "Мулатка (2004)"
+		song : "Мулатка (2004)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_1,
@@ -423,19 +424,20 @@ let ru_2000_m = [
 		ignore : true
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Иракли',
 		song : "Капли абсента (2005)"
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Стас Пьеха',
 		song : "На ладони линия (2008)"
 	},
 	{
 		pack : RU_2000_M_PACK_2,
 		group : 'Сергей Трофимов',
-		song : "Город в пробках (2009)"
+		song : "Город в пробках (2009)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_5,
@@ -523,7 +525,7 @@ let ru_2000_m = [
 		ignore : true
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Юрий Шатунов',
 		song : "Забудь (2001)"
 	},
@@ -561,17 +563,20 @@ let ru_2000_m = [
 	{
 		pack : RU_2000_M_PACK_1,
 		group : 'Дмитрий Колдун',
-		song : "Я для тебя (2007)"
+		song : "Я для тебя (2007)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_1,
 		group : 'Дмитрий Колдун',
-		song : "Звезда (2009)"
+		song : "Звезда (2009)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_1,
 		group : 'Дмитрий Колдун',
-		song : "Настройся на меня (2009)"
+		song : "Настройся на меня (2009)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_2,
@@ -611,7 +616,8 @@ let ru_2000_m = [
 	{
 		pack : RU_2000_M_PACK_1,
 		group : 'Валерий Меладзе',
-		song : "Иностранец (2005)"
+		song : "Иностранец (2005)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_1,
@@ -622,7 +628,8 @@ let ru_2000_m = [
 	{
 		pack : RU_2000_M_PACK_1,
 		group : 'Дима Билан',
-		song : "Я твой номер один (2008)"
+		song : "Я твой номер один (2008)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_2,
@@ -652,12 +659,12 @@ let ru_2000_m = [
 		ignore : true
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Юрий Шатунов',
 		song : "Не бойся (2004)"
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Юрий Шатунов',
 		song : "Запиши мой голос на кассету (2006)"
 	},
@@ -675,7 +682,8 @@ let ru_2000_m = [
 	{
 		pack : RU_2000_M_PACK_6,
 		group : 'Серёга',
-		song : "Мой бит (2005)"
+		song : "Мой бит (2005)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_2,
@@ -700,7 +708,8 @@ let ru_2000_m = [
 	{
 		pack : RU_2000_M_PACK_1,
 		group : 'Сергей Лазарев',
-		song : "Найди меня (2009)"
+		song : "Найди меня (2009)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_1,
@@ -711,7 +720,8 @@ let ru_2000_m = [
 	{
 		pack : RU_2000_M_PACK_1,
 		group : 'Сергей Лазарев',
-		song : "Вспоминай (2006)"
+		song : "Вспоминай (2006)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_3,
@@ -809,9 +819,9 @@ let ru_2000_m = [
 		song : "Дальше всех (2003) Фабрика-2"
 	},
 	{
-		pack : RU_2000_M_PACK_3,
+		pack : RU_2000_M_PACK_2,
 		group : 'Никита Малинин',
-		song : "Котёнок (2003) Фабрика-3"
+		song : "Котёнок (2003)"
 	},
 	{
 		pack : RU_2000_M_PACK_3,
@@ -1166,12 +1176,14 @@ let ru_2000_m = [
 	{
 		pack : RU_2000_M_PACK_1,
 		group : 'Александр Буйнов',
-		song : "Пусть (2004)"
+		song : "Пусть (2004)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_1,
 		group : 'Александр Буйнов',
-		song : "Зачем (2005)"
+		song : "Зачем (2005)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_1,
@@ -1186,7 +1198,7 @@ let ru_2000_m = [
 		ignore : true
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_5,
 		group : 'Александр Новиков',
 		song : "20 лет (2004)"
 	},
@@ -1238,7 +1250,8 @@ let ru_2000_m = [
 	{
 		pack : RU_2000_M_PACK_1,
 		group : 'Дима Билан',
-		song : "Number One Fan (2007)"
+		song : "Number One Fan (2007)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_6,
@@ -1289,7 +1302,7 @@ let ru_2000_m = [
 		song : "Всё для тебя (2006)"
 	},
 	{
-		pack : RU_2000_M_PACK_1,
+		pack : RU_2000_M_PACK_2,
 		group : 'Иракли',
 		song : "Я с тобой (2009)"
 	},
@@ -1330,7 +1343,8 @@ let ru_2000_m = [
 	{
 		pack : RU_2000_M_PACK_1,
 		group : 'Валерий Меладзе',
-		song : "Сахара не надо (2008)"
+		song : "Сахара не надо (2008)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_5,
@@ -1343,7 +1357,7 @@ let ru_2000_m = [
 		song : "Ночная леди (2007)"
 	},
 	{
-		pack : RU_2000_M_PACK_6,
+		pack : RU_2000_M_PACK_5,
 		group : 'White Hot Ice',
 		song : "Растаман (2007)"
 	},
@@ -1363,12 +1377,12 @@ let ru_2000_m = [
 		song : "Зажигай солнце (2003)"
 	},
 	{
-		pack : RU_2000_M_PACK_6,
+		pack : RU_2000_M_PACK_5,
 		group : 'ШЕFF',
 		song : "Имя-Шeff (2000)"
 	},
 	{
-		pack : RU_2000_M_PACK_6,
+		pack : RU_2000_M_PACK_5,
 		group : 'Смоки Мо',
 		song : "Кара-Тэ (feat. Шаали Секира) (2004)"
 	},
@@ -1385,12 +1399,14 @@ let ru_2000_m = [
 	{
 		pack : RU_2000_M_PACK_6,
 		group : 'Серёга',
-		song : "Sonya Erixxxon (2006)"
+		song : "Sonya Erixxxon (2006)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_6,
 		group : 'Серёга',
-		song : "Песенка про то, как на танцполе авария случилася (2004)"
+		song : "Песенка про то, как на танцполе авария случилася (2004)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_6,
@@ -1415,7 +1431,8 @@ let ru_2000_m = [
 	{
 		pack : RU_2000_M_PACK_6,
 		group : 'Ассаи',
-		song : "В точку (2008)"
+		song : "В точку (2008)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_6,
@@ -1435,7 +1452,8 @@ let ru_2000_m = [
 	{
 		pack : RU_2000_M_PACK_6,
 		group : 'Децл',
-		song : "Письмо (ft Маруся) (2001)"
+		song : "Письмо (ft Маруся) (2001)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_6,
@@ -1453,19 +1471,25 @@ let ru_2000_m = [
 		song : "Жизнь (2006)"
 	},
 	{
-		pack : RU_2000_M_PACK_2,
+		pack : RU_2000_M_PACK_5,
 		group : 'Александр Дюмин',
 		song : "Шпана (2003)"
 	},
 	{
 		pack : RU_2000_M_PACK_1,
 		group : 'Сергей Лазарев',
-		song : "Даже если ты уйдешь (2006)"
+		song : "Даже если ты уйдешь (2006)",
+		ignore : true
 	},
 	{
 		pack : RU_2000_M_PACK_2,
 		group : 'Стас Михайлов',
 		song : "Без тебя (2004)"
+	},
+	{
+		pack : RU_2000_M_PACK_2,
+		group : 'Mr Credo',
+		song : "Белые облака (2002)"
 	}
 ];
 
