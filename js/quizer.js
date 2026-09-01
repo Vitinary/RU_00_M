@@ -1493,7 +1493,6 @@ let ru_2000_m = [
 	}
 ];
 
-let ru_2000_m_1 =	ru_2000_m.filter(item => item.pack == 1);
 let ru_2000_m_2 =	ru_2000_m.filter(item => item.pack == 2);
 let ru_2000_m_3 =	ru_2000_m.filter(item => item.pack == 3);
 let ru_2000_m_4 =	ru_2000_m.filter(item => item.pack == 4);
@@ -1507,10 +1506,6 @@ let music = [
 		year: '2000',
 		type: 'm',
 		packs: [
-				{
-					arr: ru_2000_m_1,
-					name: 'RU 2000s Male: Easy',
-				},
 				{
 					arr: ru_2000_m_2,
 					name: 'RU 2000s Male: Medium',
