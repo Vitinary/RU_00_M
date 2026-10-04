@@ -440,7 +440,7 @@ let ru_2000_m = [
 		ignore : true
 	},
 	{
-		pack : RU_2000_M_PACK_5,
+		pack : RU_2000_M_PACK_2,
 		group : 'Денис Майданов',
 		song : "Вечная любовь (2009)"
 	},
@@ -1198,7 +1198,7 @@ let ru_2000_m = [
 		ignore : true
 	},
 	{
-		pack : RU_2000_M_PACK_5,
+		pack : RU_2000_M_PACK_2,
 		group : 'Александр Новиков',
 		song : "20 лет (2004)"
 	},
